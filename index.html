@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Developer Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top py-3" id="navbar">
+		<div class="container">
+			<a class="navbar-brand" href="#">My Developer Portfolio</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="navbar-nav ms-auto">
+					<a class="nav-link ms-3" href="#landing">About Me</a>
+					<a class="nav-link ms-3" href="#projects">My Projects</a>
+					<a class="nav-link ms-3" href="#tools">Tools</a>
+					<a class="nav-link ms-3" href="#contact">Contact Me</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container" id="landing">
+		<div class="row justify-content-center my-5">
+			<div class="col-md-3 my-5 my-md-0">
+				<img src="./images/anton.jpg" class="img-fluid">
+			</div>
+			<div class="col-md-7">
+				<h1>Manuel Antonio C. Valdez III</h1>
+				<h3>Full Stack Web Developer</h3>
+				<p>I’ve always enjoyed solving problems and building things, which eventually led me to discover web development. I started learning on my own, and the more I explored coding, the more I realized I wanted to do this full time. Coming from a different field, I decided to fully shift gears and join a bootcamp to focus on full stack development. Now, I'm all in on becoming a developer and excited to keep learning and building.</p>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="container" id="projects">
+		<h2>My Web Developer Projects</h2>
+		<div class="row my-5">
+			<div class="col-12 col-md-4">
+				<div id="carousel1" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="carousel-item active text-center">
+							<img src="./images/1.webp" class="d-block w-100" alt="...">
+							<div class="carousel-text mt-3">
+								<h5>E-Commerce App</h5>
+								<p>MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
+							</div>
+						</div>
+
+						<div class="carousel-item text-center">
+							<img src="./images/2.png" class="d-block w-100" alt="...">
+							<div class="carousel-text mt-3">
+								<h5>E-Commerce API Documentation</h5>
+								<p>Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Document Backend API published publicly using Postman.</p>
+							</div>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div id="carousel2" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="carousel-item active text-center">
+							<img src="./images/3.jpg" class="d-block w-100" alt="...">
+							<div class="carousel-text mt-3">
+								<h5>Course Booking App</h5>
+								<p>A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>
+							</div>
+						</div>
+
+						<div class="carousel-item text-center">
+							<img src="./images/4.png" class="d-block w-100" alt="...">
+							<div class="carousel-text mt-3">
+								<h5>Course Booking API Documentation</h5>
+								<p>Restful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.</p>
+							</div>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<div class="col-12 col-md-4">
+				<div id="carousel3" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="carousel-item active text-center">
+							<img src="./images/5.jpg" class="d-block w-100" alt="...">
+							<div class="carousel-text mt-3">
+								<h5>Airline Booking System Mockup</h5>
+								<p>Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>
+							</div>
+						</div>
+
+						<div class="carousel-item text-center">
+							<img src="./images/6.jpg" class="d-block w-100" alt="...">
+							<div class="carousel-text mt-3">
+								<h5>E-Commerce API Documentation</h5>
+								<p>Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.</p>
+							</div>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5" id="tools">
+		<h2>Tools and Technology</h2>
+		<div class="row my-5 justify-content-center">
+			<div class="col-md-8">
+				<div class="accordion my-5" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Front-End
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<img src="./images/html.png">
+								<img src="./images/css.png">
+								<img src="./images/bootstrap.jpg">
+								<img src="./images/js.webp">
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								MERN
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<img src="./images/mongo.jpg">
+								<img src="./images/express.png">
+								<img src="./images/vue.webp">
+								<img src="./images/node.png">
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Other Tools
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<img src="./images/git.webp">
+								<img src="./images/postman.webp">
+								<img src="./images/sublime.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="contact">
+		<h2>Contact me!</h2>
+		<div class="row my-5 justify-content-center">
+			<div class="col-md-6">
+				<form action="https://google.com">
+					<input type="text" name="name" placeholder="First Name, Last Name" class="form-control" required autocomplete>
+					<input type="text" name="email"  placeholder="Email" class="form-control mt-1" required autocomplete>
+					<textarea rows="5" class="form-control mt-1" placeholder="Enter your message here..."></textarea>
+					<div class="d-flex justify-content-center gap-2 mt-3">
+						<a href="https://www.linkedin.com/" target="_blank">
+							<img src="https://cdn-icons-png.flaticon.com/256/174/174857.png">
+						</a>
+						<a href="https://github.com" target="_blank">
+							<img src="https://cdn-icons-png.flaticon.com/256/25/25231.png">
+						</a>
+						<a href="https://about.gitlab.com" target="_blank">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTMU0Ge8750e3MFRuLtBi_nu8MlsLnuCT5UQ&s">
+						</a>
+						<button type="submit" class="form-button ms-auto">Submit</button>
+						<button type="reset" class="form-button">Reset</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer class="d-flex align-items-center flex-column py-3">
+		<div>Manuel Antonio C. Valdez III</div>
+		<div>Full Stack Web Developer</div>
+		<div>&copy; All Rights Reserved 2025.</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
